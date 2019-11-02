@@ -1,8 +1,23 @@
 {
   "name": "ng-intersection",
-  "version": "0.0.5",
+  "version": "1.0.1",
+  "description": "Angular library that wraps the browser IntersectionObserver in an Angular directive",
   "peerDependencies": {
     "@angular/common": "^8.0.3",
     "@angular/core": "^8.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lilbaek/angular-intersection.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "intersection",
+    "IntersectionObserver",
+    "viewport",
+    "getBoundClientRect",
+    "infinite",
+    "scrolling"
+  ]
 }
