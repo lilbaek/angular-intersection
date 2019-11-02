@@ -1,5 +1,8 @@
 # Ng Intersection
-Angular library that wraps the browser IntersectionObserver in an Angular directive. The library allows for getting a callback whenever the target element enters/exits the ancestor/viewport depending on the options.
+Angular library that wraps the browser IntersectionObserver in an Angular directive.
+
+The library allows for getting a callback whenever the target element enters/exits the ancestor/viewport depending on the options.
+
 Allows for browser based in viewport detection instead of old style Element.getBoundClientRect().
 
 Useful for many different scenarios such as:
@@ -35,5 +38,5 @@ Targeting a specific element with IntersectionObserver options:
   
 See: https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/IntersectionObserver for docs on the options.
   
-#Browser compatibility
+# Browser compatibility
 See: https://caniuse.com/#feat=intersectionobserver
